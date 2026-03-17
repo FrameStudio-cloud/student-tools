@@ -15,7 +15,7 @@ function App() {
   },[activeTab])
 
   return (
-    <div className="bg-blue-700 p-10">
+    <div className="bg-blue-700 h-[80%]">
       <Navbar activeTab={activeTab} setActiveTab={setActiveTab}/>
       <div className="flex">
         <Sidebar 
